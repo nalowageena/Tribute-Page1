@@ -1,6 +1,7 @@
 #img-caption {
   font-style: italic;
   text-align: center;
+  font-size: 13px;
 }
 #tribute-info {
   font-family: Oswald, serif;
@@ -8,9 +9,7 @@
   /* width: 50%; */
   margin: auto;
   text-align: justify;
-  background-color: hsl(61deg, 100%, 97%);
-  border: 2px solid hsl(61deg, 90%, 90%);
-  padding: 5% 10% 5% 10%;
+  padding-top: 20px;
 }
 .date {
   font-weight: bolder;
@@ -21,6 +20,10 @@
   margin: auto;
   display: block;
   text-align: center;
+  background-color: hsl(61deg, 100%, 97%);
+  border: 2px solid hsl(61deg, 98%, 95%);
+  padding: 5% 10% 5% 10%;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.23);
 }
 #title {
   text-align: center;
@@ -30,10 +33,14 @@
   height: auto;
   margin: 0 auto;
 }
-.link{
+.link {
   font-weight: bolder;
 }
-h1{
+h1 {
   font-family: Oswald, serif;
   font-size: 26px;
+}
+.heading-tribute-info {
+  text-transform: capitalize;
+  font-weight: 600;
 }
