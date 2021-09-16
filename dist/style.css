@@ -1,7 +1,7 @@
 #img-caption {
   font-style: italic;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
 }
 #tribute-info {
   font-family: Oswald, serif;
@@ -29,9 +29,12 @@
   text-align: center;
 }
 #image {
+  /* making the image responsive */
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+  /* center image */
+  margin: auto;
+  display: block;
 }
 .link {
   font-weight: bolder;
@@ -43,4 +46,11 @@ h1 {
 .heading-tribute-info {
   text-transform: capitalize;
   font-weight: 600;
+}
+.citation {
+  font-size: 16px;
+  font-style: italic;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
 }
